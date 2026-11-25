@@ -1,0 +1,18 @@
+{
+  "brand_names": [
+    "Acme Analytics",
+    "Acme",
+    "AcmeAnalytics"
+  ],
+  "own_domains": [
+    "acme-example.com"
+  ],
+  "competitors": [
+    {
+      "name": "Rivalytics",
+      "domains": [
+        "rivalytics.example.net"
+      ]
+    }
+  ]
+}

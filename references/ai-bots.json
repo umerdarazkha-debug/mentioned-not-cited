@@ -1,0 +1,17 @@
+{
+  "checked": "2026-11-26",
+  "note": "Logs are matched on the token only (case-insensitive, not preceded by a letter or digit). Where a vendor publishes only the token, the full string is not recorded here.",
+  "bots": [
+    {"token": "GPTBot", "vendor": "OpenAI", "purpose": "training crawler", "published_string": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko); compatible; GPTBot/1.4; +https://openai.com/gptbot", "source_url": "https://developers.openai.com/api/docs/bots", "verified": true},
+    {"token": "OAI-SearchBot", "vendor": "OpenAI", "purpose": "ChatGPT search index", "published_string": "contains: compatible; OAI-SearchBot/1.4; +https://openai.com/searchbot (full string longer, see source)", "source_url": "https://developers.openai.com/api/docs/bots", "verified": true},
+    {"token": "ChatGPT-User", "vendor": "OpenAI", "purpose": "fetch when a user asks ChatGPT, robots.txt may not apply", "published_string": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko); compatible; ChatGPT-User/1.0; +https://openai.com/bot", "source_url": "https://developers.openai.com/api/docs/bots", "verified": true},
+    {"token": "ClaudeBot", "vendor": "Anthropic", "purpose": "training crawler", "published_string": null, "source_url": "https://support.claude.com/en/articles/8896518-does-anthropic-crawl-data-from-the-web-and-how-can-site-owners-block-the-crawler", "verified": true, "note": "Anthropic publishes the token only."},
+    {"token": "Claude-User", "vendor": "Anthropic", "purpose": "fetch when a user asks Claude", "published_string": null, "source_url": "https://support.claude.com/en/articles/8896518-does-anthropic-crawl-data-from-the-web-and-how-can-site-owners-block-the-crawler", "verified": true, "note": "Anthropic publishes the token only."},
+    {"token": "Claude-SearchBot", "vendor": "Anthropic", "purpose": "improves search result quality", "published_string": null, "source_url": "https://support.claude.com/en/articles/8896518-does-anthropic-crawl-data-from-the-web-and-how-can-site-owners-block-the-crawler", "verified": true, "note": "Anthropic publishes the token only."},
+    {"token": "PerplexityBot", "vendor": "Perplexity", "purpose": "search index", "published_string": "Mozilla/5.0 (compatible; PerplexityBot/1.0; +https://perplexity.ai/perplexitybot)", "source_url": "https://docs.perplexity.ai/guides/bots", "verified": true},
+    {"token": "Perplexity-User", "vendor": "Perplexity", "purpose": "fetch when a user asks Perplexity, generally ignores robots.txt", "published_string": "Mozilla/5.0 (compatible; Perplexity-User/1.0; +https://perplexity.ai/perplexity-user)", "source_url": "https://docs.perplexity.ai/guides/bots", "verified": true}
+  ],
+  "not_in_logs": [
+    {"token": "Google-Extended", "reason": "Google says it is a robots.txt token with no separate HTTP user agent string. Google crawls with its existing user agents, so it never appears in server logs.", "source_url": "https://developers.google.com/search/docs/crawling-indexing/google-common-crawlers", "verified": true}
+  ]
+}

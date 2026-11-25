@@ -1,0 +1,9 @@
+engine,prompt,answer_text,cited_urls
+chatgpt,best analytics tool,Acme Analytics is a solid pick.,https://acme-example.com/blog/guide|https://other.example.org/review
+chatgpt,cheap analytics,Acme is cheap. Rivalytics costs more.,https://reviewsite.example.org/best-tools|https://rivalytics.example.net/pricing
+chatgpt,analytics for startups,Try the tools in Acmeville.,https://www.reviewsite.example.org/best-tools/?utm_source=x
+chatgpt,privacy analytics,AcmeAnalytics is privacy friendly.,https://blog.acme-example.com/post
+perplexity,best analytics tool,Acme leads. Rivalytics is second.,https://reviewsite.example.org/best-tools?utm_source=y|https://forum.example.com/thread
+perplexity,cheap analytics,Several tools exist.,https://notacme-example.com/x
+perplexity,analytics for startups,Acme works well for startups.,
+perplexity,analytics pricing,acme lists its price on its site.,https://acme-example.com/pricing
